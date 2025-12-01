@@ -30,10 +30,17 @@ const config: HardhatUserConfig = {
     bsc_test: {
       url: "https://data-seed-prebsc-1-s1.binance.org:8545",
       chainId: 97,
+      accounts: ['8b0400d02241bdd6e6e03dc44abce9aafbb1a343a9b742df21e5756bbc9a218d'],
     },
-    bsc: {
-      url: "https://bsc-dataseed.binance.org/",
-      chainId: 56,
+    celo_test: {
+      url: "https://rpc.ankr.com/celo_sepolia",
+      chainId: 11142220,
+      accounts: ['8b0400d02241bdd6e6e03dc44abce9aafbb1a343a9b742df21e5756bbc9a218d'],
+    },
+    hoodi_test: {
+      url: 'https://rpc-hoodi.morphl2.io',
+      chainId: 2910,
+      accounts: ['8b0400d02241bdd6e6e03dc44abce9aafbb1a343a9b742df21e5756bbc9a218d'],
     },
   },
   paths: {

@@ -10,8 +10,8 @@
     "compile": "npx hardhat compile",
     "flatten": "npx hardhat flatten",
     "check:format": "solhint contracts/*.sol --fix",
-    "deploy:bsc": "npx hardhat run scripts/deploy.ts --network bsc",
-    "deploy:bsc:test": "npx hardhat run scripts/deploy.ts --network bsc_test"
+    "deploy:main": "npx hardhat run scripts/deploy.ts --network bsc",
+    "deploy:test": "npx hardhat run scripts/deploy.ts --network celo_test"
   },
   "keywords": [
     "Airdrop",
