@@ -8,7 +8,7 @@
     "test": "npx hardhat test",
     "coverage": "npx hardhat coverage --solcoverjs ./.solcover.js",
     "compile": "npx hardhat compile",
-    "flatten": "npx hardhat flatten",
+    "flatten": "npx hardhat flatten contracts/TestToken.sol > flattened.sol",
     "check:format": "solhint contracts/*.sol --fix",
     "deploy:main": "npx hardhat run scripts/deploy.ts --network bsc",
     "deploy:test": "npx hardhat run scripts/deploy.ts --network celo_test"

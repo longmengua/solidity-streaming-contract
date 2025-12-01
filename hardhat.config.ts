@@ -32,6 +32,8 @@ const config: HardhatUserConfig = {
       chainId: 97,
       accounts: ['8b0400d02241bdd6e6e03dc44abce9aafbb1a343a9b742df21e5756bbc9a218d'],
     },
+    // Celo Testnet Block Explorer: https://sepolia.celoscan.io/
+    // 0x9Ce4633c0fB2801083c3C291bBC15c956F328f29
     celo_test: {
       url: "https://rpc.ankr.com/celo_sepolia",
       chainId: 11142220,
